@@ -1,0 +1,8 @@
+spring.application.name=fashion
+iyzico.apiKey=SANDBOX_API_KEY
+iyzico.secretKey=SANDBOX_SECRET_KEY
+iyzico.baseUrl=https://sandbox-api.iyzipay.com
+
+app.baseUrl=http://localhost:8080
+# callback iyzico taraf?ndan ça?r?lacak
+app.iyzico.callbackUrl=${app.baseUrl}/api/payments/iyzico/callback
